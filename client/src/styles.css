@@ -1,0 +1,446 @@
+/* Estilos para el formulario de declaración */
+.declaracion-form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.declaracion-form h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Estilos para inputs y textarea */
+.declaracion-form input,
+.declaracion-form select,
+.declaracion-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Ajustes específicos para el textarea */
+.declaracion-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+/* Estilo para el combobox (select) */
+.declaracion-form select {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Estilo para el input de tipo text (cuando se selecciona "OTRO") */
+.declaracion-form input[type="text"] {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+}
+
+/* Etiqueta */
+.declaracion-form label {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Estilos para los botones */
+.declaracion-form button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Efecto hover para los botones */
+.declaracion-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos específicos para el checkbox */
+.declaracion-form input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+.declaracion-form .checkbox-label {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Espaciado entre los elementos */
+.declaracion-form > * {
+  margin-bottom: 10px;
+}
+
+/* Añadir padding en general para dar un espacio adecuado */
+.declaracion-form input,
+.declaracion-form select,
+.declaracion-form textarea {
+  padding: 12px;
+}
+
+/* Evitar que el texto en los botones se vea pequeño */
+.declaracion-form button {
+  font-size: 18px;
+}
+
+/* Cuando se selecciona "OTRO" para ingresar el nombre manualmente */
+.declaracion-form .manual-destinatario {
+  display: block;
+  margin-top: 10px;
+}
+
+.logout-button {
+  padding: 10px 15px;
+  background-color: #dc3545; /* Color rojo para el botón de salida */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 20px; /* Separación entre el formulario y el botón de salida */
+}
+
+.logout-button:hover {
+  background-color: #c82333; /* Color rojo más oscuro al pasar el ratón */
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/* Estilos para las declaraciones públicas */
+.declaraciones-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .declaraciones-container h2 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .declaraciones-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .declaraciones-container ul li {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .declaraciones-container ul li strong {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .declaraciones-container ul li span {
+    display: block;
+    margin-top: 8px;
+    color: #555;
+  }
+  .declaraciones-container {
+    max-height: 400px; /* Puedes ajustar la altura máxima */
+    overflow-y: auto; /* Esto agrega el scroll bar si las publicaciones exceden la altura */
+    margin-top: 20px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+/*------------------------------------------------------------------------------------*/  
+
+/* Estilos específicos para el formulario de Registro */
+
+/* Contenedor del formulario */
+.register-box {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Fondo blanco suave */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center;
+  }
+  
+  /* Título del formulario */
+  .register-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333; /* Título en gris oscuro */
+  }
+  
+  /* Estilos para los inputs */
+  .register-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para el botón */
+  .register-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Color azul del login */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Cambio de color al pasar el mouse */
+  .register-box button:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+  }
+  
+  /* Estilo para el mensaje de error */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+/*----------------------------------------------------------------------------------*/
+  /* Estilos específicos para el formulario de Login */
+
+/* Contenedor del formulario */
+.login-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título del formulario */
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Estilos para los inputs */
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para el botón */
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Cambio de color al pasar el mouse */
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para el mensaje de error */
+  .login-form .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /*------------------------------------------------------------------*/
+  .declaracion {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  .declaracion.privada {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+  }
+  
+    /*------------------------------------------------------------------*/
+/*estilos para app.js*/
+
+/* Estilo general */
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+header {
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Contenedor de declaraciones */
+.declarations-container {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  height: 300px; /* Altura fija para el scroll */
+  overflow-y: auto; /* Scroll bar */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.declarations-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.declarations-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.declarations-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Contenedor de autenticación */
+.auth-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.auth-box {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-box > * {
+  margin: 10px 0;
+}
+
+p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Contenedor de usuario logueado */
+.user-container {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Botones y inputs */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+
+/*si no se ha marcado ningunas de las opciones*/
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}

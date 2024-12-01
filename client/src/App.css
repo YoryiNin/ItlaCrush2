@@ -1,0 +1,110 @@
+/* Estilos generales de la aplicación */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8; /* Color de fondo suave */
+  color: #333;
+}
+
+/* Estilo para los encabezados */
+h1 {
+  text-align: center;
+  color: #b30000; /* Rojo oscuro */
+  margin: 20px 0;
+}
+
+h2 {
+  color: #4CAF50; /* Verde brillante */
+  text-align: center;
+}
+
+/* Estilo para las listas */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+li strong {
+  color: #4CAF50; /* Verde brillante */
+}
+
+/* Formulario general */
+form {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+form textarea {
+  resize: none;
+  height: 100px;
+}
+
+form label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1em;
+}
+
+form button {
+  background-color: #b30000; /* Rojo oscuro */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+form button:hover {
+  background-color: #ff6666; /* Rojo más claro */
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  form {
+    width: 100%;
+    padding: 15px;
+  }
+}
